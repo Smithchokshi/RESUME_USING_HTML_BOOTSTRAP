@@ -1,0 +1,239 @@
+/*/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+
+/*colors*/
+
+:root {
+	--primary : #1a253f;
+	--dark : #151A33;
+	--secondary : #2b55cc;
+	--info : #4d79f6;
+	--termary : #848db3;
+	--pure : #eff2f9;
+	--fade : #7081b9;
+	--mild : #8997bd;
+	--footer : #212A4A;
+	--black : #060b1b;
+	--twitter : #4ac7ec;
+	--dribbble : #ff5da0;
+	--success : #1ecab8;
+	--danger : #f1646c;
+	--dark-blue : #28365f;
+}
+
+/*Reset*/
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*body {
+	font-family: 'IBM plex Sans', sans-serif;
+	background: var(--dark);
+	-webkit-font-smoothing: antialiased;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	line-height: 1;
+}
+
+
+.container {
+	max-width: 1140px;
+	margin:0 auto;
+}
+
+
+nav{
+	background: var(--primary);
+	padding: 1.6rem 0;
+}
+
+nav .inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav .inner .logo{
+	text-transform: uppercase;
+	color: var(--pure);
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+*/
+.container{
+	font-family: 'IBM plex Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	margin-top: 50px;
+}
+
+h2, h3{
+	text-align: left;
+	text-transform: uppercase;
+}
+
+/*div .test{
+	display: flex;
+	justify-content: space-between;
+}*/
+
+/*#ielts{
+	padding-right: 342px;
+}
+*/
+
+img{
+	margin-top: 10px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+i{
+	color: var(--dark)
+}
+
+section{
+	padding: 3rem;
+}
+
+.experience a{
+	color: var(--black);
+}
+
+.name{
+	color: var(--fade);
+	margin-left: 7px;
+	margin-top: -20px;
+}
+
+#info{
+	color: var(--fade);
+}
+
+
+
+.line{
+	border-top: 2px solid black;
+	margin-top: 0.5px;
+}
+
+.profile i{
+	color: var(--termary);
+}
+
+.profile{
+	background: var(--dark);
+	padding-bottom: 20px;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0% 80%);
+	margin-bottom: 5px;
+	margin-top: -10px;
+}
+
+.body_profile{
+	background: var(--termary);
+	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 25% 2%);
+	margin-top: -52px;
+}
+
+.schl_average{
+	margin-top: 0em;
+	margin-left: 3em;
+}
+
+.diff_skills{
+	margin-left: 3em;
+}
+
+.button{
+	
+	padding-right: 1px;
+	margin-bottom: 25px;
+}
+
+.experience{
+	margin-top: 20px;
+}
+
+#address{
+	text-align: right;
+}
+
+#clg_average{
+	margin-top: -1em;
+	margin-left: 3em;
+}
+
+
+#img{
+	margin-top: -30px;
+}
+
+#c{
+	float: left;
+	margin-left: 10px;
+}
+
+#C{
+	float: left;
+	/*margin-left: 10px;*/
+	margin-top: 10px;
+	margin-left: -15px;
+}
+
+#java{
+	float: left;
+	margin-top: 10px;
+	margin-left: -35px;
+}
+
+#python{
+	float: left;
+	margin-top: 10px;
+	margin-left: -45px;
+}
+
+#html{
+	float: left;
+	margin-top: 10px;
+	margin-left: -58px;
+}
+
+#css{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#c_bar{
+	margin-top: 23px;
+}
+
+#C_bar{
+	margin-top: 18px;
+}
+
+#java_bar{
+	margin-top: 18px;
+}
+
+#python_bar{
+	margin-top: 18px;
+}
+
+#html_bar{
+	margin-top: 18px;
+	margin-left: 60px;
+}
+
+#css_bar{
+	margin-top: 18px;
+}

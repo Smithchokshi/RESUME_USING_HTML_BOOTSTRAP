@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="./Pluggins/Headlines/headline.css"> -->
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+  
+<main>
+<div class="container">
+  <section class="profile">
+    <img src="photo.jpeg" class="float-right" alt="Cinque Terre" width="150" height="150" id="img">
+    <h2 class="name"><strong>Smith Chokshi</strong></h2>
+    <h6>
+ <pre id="info">
+ <i class="fa fa-phone"></i> +9172020-38327
+ <i class="fa fa-home"></i> H-401 Kanchan Bhumi, Satellite, Ahmedabad, Gujarat, India
+ <i class="fa fa-map-pin"></i>  380015
+ <i class="fa fa-envelope"></i> <a href="smithchokshi@gmail.com" id="email">smithchokshi@gmail.com</a>
+ <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/smith-chokshi-8657021a1">LinkedIn Profile</a>
+ </pre>
+    <!-- +91 72020-38327 | H-401 Kanchna Bhumi, Satellite, Ahmedabad, Gujarat, India | 
+    <a href="smithchokshi@gmail.com">smithchokshi@gmail.com</a> | <a href="https://www.linkedin.com/in/smith-chokshi-8657021a1">LinkedIn Profile</a> -->
+    <!-- <div class="pt-3 test">
+      <p>GRE:- 301/340, 159 Quant, 142 Verbal, 3.5AWA</p>
+      <p id="ielts">IELTS:- O:- 7, L:-7.5, R:-7.5, W:-6.5, S:-6.0</p>
+    </div> -->
+    </h6>
+  </section> 
+  <section class="body_profile">
+  <div class="education">
+    <h3><i class="fa fa-graduation-cap"></i><strong> education</strong></h3>
+    <hr class="line">
+    <div class="row"> 
+      <div class="col">
+        <strong>L.J.Institute of Engineering and Technology-B.Tech</strong>
+        <p>Bachelor's of Information and Communication technology (ICT)</p>
+        <ul id="clg_average">
+          <li>Average: 9.52 CGPA (2017-2020) 2017-2021</li>
+        </ul>
+      </div>
+      <div class="col" id="address">
+        <strong>Ahmedabad, Gujarat</strong>
+        <p>2017-2021</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <strong>A-One School</strong>
+        <ul class="schl_average">
+          <li>Average: 75%</li>
+        </ul>
+      </div>
+      <div class="col" id="address">
+        <strong>Ahmedabad, Gujarat</strong>
+        <p>2015-2017</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <strong>A-One School</strong>
+        <ul class="schl_average">
+          <li>Average: 82%</li>
+        </ul>
+      </div>
+      <div class="col" id="address">
+        <strong>Ahmedabad, Gujarat</strong>
+        <p>2014-2015</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="skills">
+    <h3><i class="fa fa-bullseye"></i><strong> skills</strong></h3>
+    <hr class="line">
+    <strong id="c">C: </strong>
+    <div class="progress" style="height: 10px" id="c_bar">
+      <div class="progress-bar bg-success" style="width: 90%;height:10px"></div>
+    </div>
+    <strong id="C">C++: </strong>
+    <div class="progress" style="height: 10px" id="C_bar">
+      <div class="progress-bar bg-info" style="width: 85%;height:10px"></div>
+    </div>
+    <strong id="java">JAVA: </strong>
+    <div class="progress" style="height: 10px" id="java_bar">
+      <div class="progress-bar bg-warning" style="width: 75%;height:10px"></div>
+    </div>
+    <strong id="python">Python: </strong>
+    <div class="progress" style="height: 10px" id="python_bar">
+      <div class="progress-bar bg-secondary" style="width: 60%;height:10px"></div>
+    </div>
+    <strong id="html">HTML: </strong>
+    <div class="progress" style="height: 10px" id="html_bar">
+      <div class="progress-bar bg-primary" style="width: 90%;height:10px"></div>
+    </div>
+    <strong id="css">CSS: </strong>
+    <div class="progress" style="height: 10px" id="css_bar">
+      <div class="progress-bar bg-dark" style="width: 85%;height:10px"></div>
+    </div>
+    <!-- <ul class="diff_skills">
+      <li><strong>Language:</strong> C, C++, Java, Python, HTML, CSS, JavaScript, TypeScript</li>
+      <li><strong>Library:</strong> Pandas, Numpy, Matplotlib, Tensorflow, Keras, BeautifulSoup, Request, csv, YOLOV4, jQuery</li>
+      <li><strong>Framework:</strong> Visual Studio, Arduino, Google Colab, Jupyter Notebook</li>
+      <li><strong>Pakages:</strong> Pillow, OpenCV</li>
+      <li><strong>Additional:</strong> MySQL</li>
+    </ul> -->    
+  </div>
+
+
+  <div class="experience">
+    <h3><i class="fa fa-briefcase"></i><strong> experience</strong></h3>
+    <hr class="line">
+    <div class="row">
+      <div class="col">
+        <strong>Vnnovate Solutions Private Limited</strong>
+        <p>IoT Intern</p>
+      </div>
+      <div class="col" id="address">
+        <strong>Ahmedabad, Gujarat</strong>
+        <p>March 2020 - August 2020<br>
+        <a href="www.vnnovate.com">www.vnnovate.com</a></p>
+      </div>
+    </div>
+    <ul class="schl_average">
+      <li>Build three different projectsfrom scratch using Arduino, Raspberry pi, wifi modules, Blender, Tensorflow, Machine Learning, and Data Science.</li>
+      <li>Made an Automatic Pill Dispensary system using the Arduino board, Wifi modules, and different types of motors. Integrated the LED for notification.</li>
+      <li>Worked on the Data Extractor for extracting data from the PDF according to the client’s requirements using different Python libraries.</li>
+      <li>Worked on the Tensorflow and Raspberry pi for detection of the customized objects according to the client’s preferences.</li>
+    </ul>
+  </div>
+
+
+  <div class="projects">
+    <h3><i class="fa fa-tasks"></i><strong> projects</strong></h3>
+    <hr class="line">
+    <strong>Smart Attendance System</strong> - Using Face Recognition
+    <p>Designed a system using Python and Tensorflow which will take attendance of the students using concept of image recognition and will create an excel sheet of attendance dynamically.</p>
+    <strong>Smart Ambulance System</strong> - Using Sensors (IoT)
+    <p>Designed a system using Arduino board, IR sensors, and wifi modules which will help ambulance to reach the accident spot in no time by controlling the traffic on their own.</p>
+    <strong>Web Scraping Algorithm</strong> - Using Python
+    <p>Designed a code using BeautifulSoup and Request libraries which will help to extract the data of our choice from websites and store that data into the csv file.</p>
+    <strong>Gesture Controlled Car</strong> - Using Sensors (Robotics)
+    <p>Designed an omnidirectional car which can be easily controlled using hand gestures.</p>
+  </div>
+
+
+  <div class="interest">
+    <h3><i class="fa fa-list"></i><strong> interest</strong></h3>
+    <hr class="line">    
+    <div>
+      <button type="button" class="btn btn-primary button">IoT</button>
+      <button type="button" class="btn btn-secondary button">Machine Learning</button>
+      <button type="button" class="btn btn-success button">Artificial Intelligence</button>
+      <button type="button" class="btn btn-info button">Data Science</button>
+      <button type="button" class="btn btn-warning button">Software Development</button>
+      <button type="button" class="btn btn-danger button">Web Development</button>
+    </div>
+  </div>
+
+
+  <div class="awards_accolades">
+    <h3><i class="fas fa-award"></i><strong> awards and accolades</strong></h3>
+    <hr class="line">
+    <ul class="schl_average">
+      <li>Winners at YI virtual hackathon, organized by YI, chapter Ahmedabad, July 2020.</li>
+      <li>Raised funding for the project named Smart Attendance System using Face Recognition at L.J Innovation Village (state level), at L.J Institute, Ahmedabad, February 2020.</li>
+      <li>First runners up at Engineers’ Premier League Cricket tournament(state level), at L.J Institute, Ahmedabad, March 2019.</li>
+      <li>First runners up in Kridaangan’18 Cricket tournament (state level) at Nirma University, Ahmedabad, February 2018.</li>
+    </ul>
+  </div>
+
+
+  <div class="extracurricular">
+    <h3><i class="fas fa-book-open"></i><strong> extracurricular</strong></h3>
+    <hr class="line">
+    <ul class="schl_average">
+      <li>Part of a district level cricket team.</li>
+      <li>Member of Youngistan Young India NGO.</li>
+      <li>Member of Google Developers Group Ahmedabad.</li>
+      <li>Organized a non-technical event at technical fest at L.J. Institute.</li>
+      <li>Part of an initiative which was aimed to teach poor children.</li>
+      <li>Volunteer for tree plantation with Youngistan Young India.</li>
+    </ul>
+  </div>
+
+</section>
+</div>
+</main>
+  
+</body>
+</html>
